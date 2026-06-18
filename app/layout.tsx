@@ -13,12 +13,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Brayan Monge Méndez — Software Engineer',
   description:
-    'Software Engineer with 5+ years delivering enterprise solutions across software development, cloud infrastructure, and DevOps. Currently engineering People Services at P&G.',
-  generator: 'v0.app',
+    'Software Engineer with 5+ years delivering enterprise solutions across software development, cloud infrastructure, and DevOps. Currently engineering enterprise platforms at P&G.',
   openGraph: {
     title: 'Brayan Monge Méndez — Software Engineer',
     description:
-      'Software Engineer focused on engineering excellence — cloud infrastructure, full-stack apps, DevOps, and AI-assisted workflows.',
+      'Software Engineer focused on engineering excellence — cloud infrastructure, full-stack apps, DevOps, and AI-integrated solutions.',
     type: 'website',
   },
 }

@@ -31,7 +31,7 @@ export const experiences: Experience[] = [
     role: 'Software Engineer',
     period: '2024 — Present',
     summary:
-      'Building enterprise People Services platforms on Google Cloud — Python APIs, ETL pipelines, and full-stack apps with automated CI/CD and AI-assisted workflows.',
+      'Building enterprise platforms on Google Cloud — Python APIs, ETL pipelines, and full-stack web apps with automated CI/CD and AI-integrated solutions.',
     stack: ['Python', 'Google Cloud', 'CI/CD', 'DevOps', 'React', 'Node.js', 'AI'],
   },
   {
