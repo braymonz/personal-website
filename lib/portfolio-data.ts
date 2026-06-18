@@ -54,6 +54,37 @@ export const experiences: Experience[] = [
   },
 ]
 
+export type Project = {
+  name: string
+  url?: string
+  repoUrl?: string
+  tagline: string
+  description: string
+  stack: string[]
+  role?: string
+}
+
+export const projects: Project[] = [
+  {
+    name: 'Brewfinder',
+    url: 'https://www.brewfinder.app/',
+    repoUrl: 'https://github.com/braymonz/brewfinder',
+    role: 'Creator',
+    tagline: 'Discover, save, and install Homebrew packages with ease.',
+    description:
+      'A modern web app for searching Homebrew formulae and casks, curating reusable package lists, and generating ready-to-run install scripts — built to make spinning up a new macOS environment effortless.',
+    stack: [
+      'Next.js',
+      'TypeScript',
+      'Tailwind CSS',
+      'shadcn/ui',
+      'Auth.js',
+      'MongoDB',
+      'Redis',
+    ],
+  },
+]
+
 export const skillGroups: { label: string; skills: string[] }[] = [
   {
     label: 'Languages & Frameworks',
