@@ -6,7 +6,7 @@ export const profile = {
     'I build polished, reliable software at the intersection of cloud, full-stack, and DevOps.',
   intro:
     'Software Engineer with 5+ years delivering enterprise solutions for multinational organizations across software development, cloud infrastructure, enterprise systems, and DevOps — with a focus on engineering excellence.',
-  email: 'bmongemendez@gmail.com',
+  email: 'contact@braymonz.com',
   website: 'https://www.braymonz.com',
   websiteLabel: 'braymonz.com',
   github: 'https://github.com/braymonz',
