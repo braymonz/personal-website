@@ -6,6 +6,7 @@ const socials = [
   { label: 'Email', value: profile.email, href: `mailto:${profile.email}` },
   { label: 'GitHub', value: profile.githubLabel, href: profile.github },
   { label: 'LinkedIn', value: profile.linkedinLabel, href: profile.linkedin },
+  { label: 'Blog', value: profile.blogLabel, href: profile.blog },
   { label: 'Website', value: profile.websiteLabel, href: profile.website },
 ]
 

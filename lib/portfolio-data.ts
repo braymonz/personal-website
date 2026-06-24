@@ -13,6 +13,8 @@ export const profile = {
   githubLabel: 'github.com/braymonz',
   linkedin: 'https://linkedin.com/in/braymonz',
   linkedinLabel: 'linkedin.com/in/braymonz',
+  blog: 'https://medium.com/@braymonz',
+  blogLabel: 'medium.com/@braymonz',
 }
 
 export type Experience = {
@@ -81,6 +83,34 @@ export const projects: Project[] = [
       'Auth.js',
       'MongoDB',
       'Redis',
+    ],
+  },
+]
+
+export type Writing = {
+  title: string
+  url: string
+  date?: string
+  excerpt: string
+  topics?: string[]
+  publication?: string
+}
+
+export const writingsIntro =
+  'I write to think out loud — sharing articles about cloud, full-stack, and DevOps, and giving back to the community that shaped my craft.'
+
+export const writings: Writing[] = [
+  {
+    publication: 'Medium',
+    title: 'My blog',
+    url: 'https://medium.com/@braymonz',
+    excerpt:
+      'Articles and notes on software engineering, cloud infrastructure, AI-assisted workflows, and the craft of building reliable systems.',
+    topics: [
+      'Software Engineering',
+      'Cloud & DevOps',
+      'AI Workflows',
+      'Developer Productivity',
     ],
   },
 ]
